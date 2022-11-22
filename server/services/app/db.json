@@ -1,0 +1,225 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "admin",
+      "role": "admin",
+      "phoneNumber": "7182312738",
+      "address": "jalan"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Crunchwrap Supreme Meal",
+      "description": "One of Taco Bell's most recognizable and unique creations, the Crunchwrap Supreme is a packed full of our signature ingredients. That means you get EVERY flavor in EVERY bite. A flour tortilla layered with seasoned ground beef, warm nacho cheese sauce, a crunchy flat taco shell, sour cream, our signature hot sauce, fresh lettuce and diced tomatoes. All wrapped up and grilled to perfection, making it great to go anywhere you need. Meal is served with either fries or nacho chips and a beverage",
+      "price": 50000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-crunchwrap-combo.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "2 Taco Supreme Meal",
+      "description": "Our tacos are so good, it's in our name! Seasoned ground beef topped with our signature hot sauce, sour cream, fresh lettuce, diced tomatoes and cheddar cheese. Try it in a freshly fried crunchy corn tortilla shell or a soft flour tortilla. Meal is served with two tacos, either fries or nacho chips and a choice of beverage.",
+      "price": 65000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-2-taco-supreme-combo.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Chicken Quesadilla Meal",
+      "description": "This one's for the cheese fans! if you want to keep things simple, but classic and next-level cheesy. A grilled flour tortilla is packed with a melted mozzarella and cheddar cheese blend, grilled chicken and our creamy jalapeno sauce. Meal is served with either fries or nacho chips and a beverage.",
+      "price": 65000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-chicken-quesadilla-combo.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "2 Kickin Chicken Tacos Meal",
+      "description": "A golden crispy chicken strip drizzled in flavorful kickin' sauce, topped with fresh lettuce, pico de gallo salsa and a blend of mozzarella and cheddar cheese. All wrapped in a soft flour tortilla. Meal is served with two tacos, either fries or nacho chips and a beverage.",
+      "price": 70000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-2-kickin-chicken-tacos-combo.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Cinnamon Tostadas",
+      "description": "Crispy tostada chips sprinkled with cinnamon sugar and topped with chocolate sauce.",
+      "price": 20000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-cinnamon-tostada.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Chocodilla",
+      "description": "A lightly grilled tortilla filled with melted chocolate.",
+      "price": 20000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-chocodilla.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Chessy Chips",
+      "description": "Mexican seasoned nacho chips served with warm nacho cheese sauce. Once you have one, you won't be able to stop!",
+      "price": 19000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/thumb-cheesy-chips.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 3
+    },
+    {
+      "id": 8,
+      "name": "Cheese Quesadilla",
+      "description": "For cheese lovers! Creamy jalapeno sauce and two cheese blend melted inside a grilled flour tortilla.",
+      "price": 22000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/11/thumb-cheese_quesadilla-1.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "Coke",
+      "description": "Coke/Sprite/Fanta Strawberry",
+      "price": 15000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/09/Coke-Fanta-Sprite.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 4
+    },
+    {
+      "id": 10,
+      "name": "Freeze",
+      "description": "A sweet, flavored freeze.",
+      "price": 25000,
+      "imgUrl": "https://www.tacobell.co.id/wp-content/uploads/2020/11/Icon-drinks.jpg",
+      "userMongoDbId": "635d26f8c8593b3a43e5f65c",
+      "CategoryId": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Meals"
+    },
+    {
+      "id": 2,
+      "name": "Desserts"
+    },
+    {
+      "id": 3,
+      "name": "Snacks"
+    },
+    {
+      "id": 4,
+      "name": "Drinks"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "ItemId": 1,
+      "name": "Beef"
+    },
+    {
+      "id": 2,
+      "ItemId": 1,
+      "name": "Cheese"
+    },
+    {
+      "id": 3,
+      "ItemId": 2,
+      "name": "Beef"
+    },
+    {
+      "id": 4,
+      "ItemId": 2,
+      "name": "Cheese"
+    },
+    {
+      "id": 5,
+      "ItemId": 3,
+      "name": "Chicken"
+    },
+    {
+      "id": 6,
+      "ItemId": 3,
+      "name": "Cheese"
+    },
+    {
+      "id": 7,
+      "ItemId": 4,
+      "name": "Chicken"
+    },
+    {
+      "id": 8,
+      "ItemId": 4,
+      "name": "Cheese"
+    },
+    {
+      "id": 9,
+      "ItemId": 5,
+      "name": "Sugar"
+    },
+    {
+      "id": 10,
+      "ItemId": 5,
+      "name": "Chocolate"
+    },
+    {
+      "id": 11,
+      "ItemId": 6,
+      "name": "Tortilla"
+    },
+    {
+      "id": 12,
+      "ItemId": 6,
+      "name": "Chocolate"
+    },
+    {
+      "id": 13,
+      "ItemId": 7,
+      "name": "Cheese"
+    },
+    {
+      "id": 14,
+      "ItemId": 7,
+      "name": "Chips"
+    },
+    {
+      "id": 15,
+      "ItemId": 8,
+      "name": "Cheese"
+    },
+    {
+      "id": 16,
+      "ItemId": 8,
+      "name": "Cream"
+    },
+    {
+      "id": 17,
+      "ItemId": 9,
+      "name": "Water"
+    },
+    {
+      "id": 18,
+      "ItemId": 9,
+      "name": "Sugar"
+    },
+    {
+      "id": 19,
+      "ItemId": 10,
+      "name": "Water"
+    },
+    {
+      "id": 20,
+      "ItemId": 10,
+      "name": "Sugar"
+    }
+  ]
+}
